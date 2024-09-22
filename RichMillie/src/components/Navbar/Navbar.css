@@ -1,0 +1,9 @@
+.navbar-structure {
+	width: 100dvw;
+}
+
+.navbar-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

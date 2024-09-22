@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+:root {
+	/* !FONT FAMILIES */
+	--ff-h1: 'Rye', serif;
+	--ff-primary: 'Roboto', sans-serif;
+
+	/*! FONT SIZES */
+
+	/*! FONT WEIGHTS */
+
+	/*! COLORS */
+	--primary-clr: #181c14;
+	--secondary-clr: #3c3d37;
+	--heavy-accent: #697565;
+	--light-accent: #ecdfcc;
+	--subtle-accent: #ffea20;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1,
+h2 {
+	font-family: var(--ff-h1);
+}
+
+h3,
+p,
+a,
+input {
+	font-family: var(--ff-primary);
+}
